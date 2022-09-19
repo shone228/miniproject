@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 600px;
+    padding-bottom: 60px;
+   
+    background-image:url('images/i1.jpg');
+     background-repeat:no-repeat; 
+     background-size:cover;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .5);
+
+    text-align: center;
+    width: 400px;
+}
+
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+}
+.form-container form input,
+.form-container form select{
+    width:100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background:#eee;
+    border-radius: 5px;
+}
+
+.form-container form select option{
+    background: #fff;
+}
+
+.form-container form .form-btn{
+    background: #fbd0d9;
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+    background:crimson;
+    color:#fff;
+}
+
+.form-container form p{
+    margin-top: 10px;
+    font-size:20px;
+    color:rgb(247, 239, 239);
+}
+
+.form-container form p a{
+    color:crimson;
+}
